@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: micro-config
+  namespace: micro
+data:
+  USER_SERVICE_URL: "http://user-service:5000"
